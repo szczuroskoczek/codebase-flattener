@@ -23,3 +23,6 @@ publish-cargo:
 
 publish-npm:
     npm publish
+
+package-debian:
+    cargo deb
