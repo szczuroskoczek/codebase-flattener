@@ -1,0 +1,16 @@
+[package]
+name = "codebase-flattener"                                                       # your unique crate name
+version = "0.1.0"
+authors = ["Krystian Mikołajczyk"]
+edition = "2024"
+description = "Flatten a Rust (or any) codebase into one file for LLM ingestion."
+license = "MIT"                                                     # pick a license
+readme = "README.md"
+repository = "https://github.com/szczuroskoczek/codebase-flattener"
+homepage = "https://github.com/szczuroskoczek/codebase-flattener"
+keywords = ["cli", "codebase", "llm", "flatten"]
+categories = ["development-tools", "command-line-utilities"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+ignore = "0.4"

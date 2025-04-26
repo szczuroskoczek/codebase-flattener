@@ -1,0 +1,26 @@
+{
+  "name": "codebase-flattener",
+  "version": "0.1.1",
+  "description": "Flatten a codebase into one file for LLM ingestion",
+  "author": "Krystian Mikołajczyk",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "codebase-flattener": "bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cli",
+    "rust",
+    "llm",
+    "flatten"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szczuroskoczek/codebase-flattener.git"
+  }
+}

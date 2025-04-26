@@ -1,0 +1,4 @@
+/target
+codebase.txt
+bin
+!bin/index.js
