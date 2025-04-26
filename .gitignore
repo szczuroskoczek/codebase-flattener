@@ -1,4 +1,4 @@
 /target
 codebase.txt
-# bin
-# !bin/index.js
+bin
+!bin/index.js
