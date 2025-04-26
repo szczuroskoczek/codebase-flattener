@@ -2,7 +2,7 @@
 name = "codebase-flattener"
 version = "0.1.0"
 authors = ["Krystian Mikołajczyk"]
-edition = "2024"
+edition = "2021"
 description = "Flatten a Rust (or any) codebase into one file for LLM ingestion."
 license = "MIT"
 readme = "README.md"
